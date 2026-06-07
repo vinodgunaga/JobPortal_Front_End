@@ -1,0 +1,51 @@
+# Dependencies and package managers
+node_modules/
+.npm/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local build outputs and build caches
+dist/
+build/
+out/
+.next/
+.tmp/
+.cache/
+.vite/
+.vitepress/
+*.tsbuildinfo
+
+# Environment variables and secrets (NEVER copy these to images)
+*.env
+*.env.*
+!*.env.example
+
+# Testing frameworks and coverage reports
+coverage/
+jest/
+.eslintcache
+.stylelintcache
+reports/
+cypress/screenshots/
+cypress/videos/
+
+# IDEs, text editors, and system files
+.git/
+.gitignore
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DS_Store
+Thumbs.db
+
+# Docker configuration files
+Dockerfile
+.dockerignore
+docker-compose.yml
+docker-compose.override.yml
